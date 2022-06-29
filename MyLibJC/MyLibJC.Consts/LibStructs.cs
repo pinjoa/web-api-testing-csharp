@@ -6,6 +6,7 @@
 **/
 
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MyLibJC.Consts
 {
@@ -22,12 +23,14 @@ namespace MyLibJC.Consts
             _pw = pw;
         }
 
+        [Required]
         public string Name
         {
             get => _name;
             set => _name = value;
         }
 
+        [Required]
         public string Pw
         {
             get => _pw;
@@ -142,6 +145,7 @@ namespace MyLibJC.Consts
             set => _id = value;
         }
 
+        [Required]
         public string Descricao
         {
             get => descricao;
