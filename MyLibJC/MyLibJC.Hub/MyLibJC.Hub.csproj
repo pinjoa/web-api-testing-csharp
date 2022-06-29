@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyLibJC.Cfg\MyLibJC.Cfg.csproj" />
+      <ProjectReference Include="..\MyLibJC.DAL\MyLibJC.DAL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.17.0" />
+    </ItemGroup>
+
+</Project>

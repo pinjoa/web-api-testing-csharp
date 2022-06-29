@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyLibJC.Consts\MyLibJC.Consts.csproj" />
+      <ProjectReference Include="..\MyLibJC.DB\MyLibJC.DB.csproj" />
+    </ItemGroup>
+
+</Project>
