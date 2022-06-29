@@ -1,3 +1,4 @@
+![WebAppJC](WebAppJC.png "WebAppJC solution")
 # web-api-testing-C#  
   
 C# Web-API (prova de conceito)  
