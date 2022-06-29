@@ -5,6 +5,7 @@ C# Web-API (prova de conceito)
 Este projeto C# é um template para ser utilizado como ponto de partida para um projeto (pretende ter o controlo de toda a informação produzida e manipulada pelo API).  
   
 ## Composto por duas soluções:  
+  
 - WebAppJC (web API com swagger incluido para testar o acesso e funcionamento do API)    
 - MyLibJC (diversas camadas de abstração para maior isolamento da informação, cada camada é um projeto...)    
 	- MyLibJC.Cfg (configurações)  
@@ -13,11 +14,19 @@ Este projeto C# é um template para ser utilizado como ponto de partida para um 
 	- MyLibJC.Error (Erros personalizados)  
 	- MyLibJC.Hub (camada de acesso pelo API)  
   
-NOTA: os dados não são persistentes!  
+## Funcionalidades implementadas:  
   
-## Funcionalidades implementadas:    
 - JWT Token  
 - CORS  
 - Sessão (básico)  
 - Nivel de acesso (básico)  
+  
+## NOTA:  
+  
+- Projeto ainda em desenvolvimento  
+- Os dados não são persistentes nesta versão.  
+  
+## Sugestões?    
+  
+Tens alguma sugestão para este projeto?   
   
