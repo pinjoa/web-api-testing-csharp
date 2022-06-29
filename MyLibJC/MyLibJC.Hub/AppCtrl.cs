@@ -107,6 +107,7 @@ namespace MyLibJC.Hub
                         u.Name, u.Id);
                     string tokenString = new JwtSecurityTokenHandler().WriteToken(token);
                     Users.Token = tokenString;
+                    return true;
                 }
                 catch (Exception e)
                 {
