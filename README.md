@@ -3,7 +3,7 @@
   
 C# Web-API (prova de conceito)  
   
-Este projeto C# é um template para ser utilizado como ponto de partida para novos projetos (pretende ter o controlo de toda a informação produzida e manipulada pelo API).  
+Este projeto C# é um template back-end para ser utilizado como ponto de partida para novos projetos (o objetivo deste exemplo é ter o controlo de toda a informação produzida e manipulada pelo API).  
   
 ## Composto por duas soluções:  
   
